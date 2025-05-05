@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Special+Gothic+Expanded+One&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #000;
+  color: #23c123;
+}
+
+html, body {
+    height: 100%;      
+    margin: 0;         
+}
+  
+body {
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;    
+    align-items: center;        
+}
+
+.container {
+    width: 450px;
+}
+  
+
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  margin-top: 0.5em;
+  border: 1px solid #23c123;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+  
+input:focus, input:active {
+    outline: none; 
+    background-color: transparent;     
+    box-shadow: none;   
+}
+  
+
+/* only change the button’s colors */
+button#lookup {
+  background-color: #23c123;
+  color: #000;
+  font-weight: 600;
+}
+
+#output {
+  margin-top: 1em;
+  word-break: break-all;
+}

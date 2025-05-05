@@ -1,0 +1,10 @@
+# local env vars
+.env*
+
+# build outputs
+dist/
+node_modules/
+.parcel-cache/
+
+# macOS Finder metadata
+.DS_Store
