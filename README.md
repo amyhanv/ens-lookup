@@ -1,5 +1,7 @@
 Application for looking up ENS names and addresses
 
+![Demo of app](./assets/demo.gif)
+
 ## Features
 
 * Forward lookup: ENS name → Ethereum address
