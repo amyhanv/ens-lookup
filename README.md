@@ -1,6 +1,4 @@
-# ENS Lookup App
-
-A lightweight front-end application for looking up ENS names and addresses.
+Application for looking up ENS names and addresses
 
 ## Features
 
